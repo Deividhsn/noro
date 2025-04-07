@@ -1,0 +1,43 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* ROOT */
+:root{
+
+}
+/* INITIAL-PAGE */
+    .initial-page{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: black;
+    }
+
+    .open-dor{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+/* HEADER */
+
+/*MAIN*/
+
+
+/*SECTION*/
+
+/* FOOTER */
