@@ -33,11 +33,44 @@
         border-radius: 50%;
     }
 
+    .teste{
+       display: none;
+    }
+
 /* HEADER */
-
+ header{
+    height: 120px;
+    width: 100%;
+    background-color: aquamarine;
+ }
 /*MAIN*/
-
+ main{
+    height: max-content;
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    margin-inline: auto;
+    background-color: blue;
+    gap: 10px;
+ }
 
 /*SECTION*/
+
+.page{
+    height: 100vh;
+    width: 98%;
+    margin-inline: auto;
+    background-color: azure;
+}
+
+.first-page {
+
+}
+.second-page{
+
+} 
+.third-page {
+
+}
 
 /* FOOTER */
