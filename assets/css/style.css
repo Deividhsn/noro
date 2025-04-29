@@ -311,7 +311,7 @@ body{
 
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 390px){
     .initial-page h1{
         width: 80%;
         text-align: center;
