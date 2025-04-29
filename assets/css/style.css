@@ -252,14 +252,16 @@ body{
 @media screen and (max-width: 600px){
     
     .box{
+        flex-direction: column;
         background-color: #000;
         gap: 10px;
+        position: relative;
     }
     .box-content{
         width: 100%;
     }
     .box-img{
-        width: 80%;
+        width: 74%;
     }
     .first-page{
         background-color: #fff;
@@ -268,18 +270,57 @@ body{
         width: 100%;
     }
     .poema{
-        width: 80%;
+        height: max-content;
+        width: 100%;
         margin-top: 20px;
         margin-inline: auto;
-        gap: 5px;
-        
+        gap: 5px;    
+    }
+    #declarationLove{
+        width: 100%;
     }
     .title{
         font-size: 1em;
     }
     .poema p{
         font-size: 1em;
+        width: 60%;
+    }
+    #btn-seg{
+    
+        height: 54%;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+       
+    }
+    .btn-seg p{
+        width: 80%;
+        text-align: center;
+    }
+    .verso{
+        width: 100% !important;
+        font-size: .9em;
+    
     }
 
-    
+}
+
+@media screen and (max-width: 390px){
+    .initial-page h1{
+        width: 80%;
+        text-align: center;
+    }
+    .box-img{
+        width: 96%;
+    }
+    .btn-seg a {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .box-img{
+        width: 100%;
+    }  
 }
