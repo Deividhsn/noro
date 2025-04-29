@@ -311,7 +311,7 @@ body{
 
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 380px){
     .initial-page h1{
         width: 80%;
         text-align: center;
@@ -324,7 +324,7 @@ body{
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 370px){
     .box-img{
         width: 108%;
     }
