@@ -324,12 +324,22 @@ body{
     }
 }
 
+@media screen and (max-width: 350px){
+    .box-img{
+        width: 108%;
+    }
+    #btn-seg{
+        height: 62%;
+        width: 100%;  
+}
+}
+
 @media screen and (max-width: 330px){
     .box-img{
         width: 108%;
     }
     #btn-seg{
-        height: 68%;
+        height: 66%;
         width: 100%;  
 }
 }
