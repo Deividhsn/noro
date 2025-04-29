@@ -278,6 +278,7 @@ body{
     }
     #declarationLove{
         width: 100%;
+        overflow: visible;
     }
     .title{
         font-size: 1em;
